@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19267AC71F828CDF00ED5DB9 /* TankModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19267AC61F828CDF00ED5DB9 /* TankModel.swift */; };
+		19267AC91F82972A00ED5DB9 /* TrajectoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19267AC81F82972A00ED5DB9 /* TrajectoryModel.swift */; };
+		198BB84B1F73D4B50088F665 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198BB84A1F73D4B50088F665 /* AppDelegate.swift */; };
+		198BB84D1F73D4B50088F665 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198BB84C1F73D4B50088F665 /* ViewController.swift */; };
+		198BB8501F73D4B50088F665 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 198BB84E1F73D4B50088F665 /* Main.storyboard */; };
+		198BB8521F73D4B50088F665 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 198BB8511F73D4B50088F665 /* Assets.xcassets */; };
+		198BB8551F73D4B50088F665 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 198BB8531F73D4B50088F665 /* LaunchScreen.storyboard */; };
+		198BB85D1F73D5830088F665 /* ParametricGrView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198BB85C1F73D5830088F665 /* ParametricGrView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19267AC61F828CDF00ED5DB9 /* TankModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TankModel.swift; sourceTree = "<group>"; };
+		19267AC81F82972A00ED5DB9 /* TrajectoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrajectoryModel.swift; sourceTree = "<group>"; };
+		198BB8471F73D4B50088F665 /* Riego Automatico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Riego Automatico.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		198BB84A1F73D4B50088F665 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		198BB84C1F73D4B50088F665 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		198BB84F1F73D4B50088F665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		198BB8511F73D4B50088F665 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		198BB8541F73D4B50088F665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		198BB8561F73D4B50088F665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		198BB85C1F73D5830088F665 /* ParametricGrView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParametricGrView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		198BB8441F73D4B50088F665 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		198BB83E1F73D4B50088F665 = {
+			isa = PBXGroup;
+			children = (
+				198BB8491F73D4B50088F665 /* Riego Automatico */,
+				198BB8481F73D4B50088F665 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		198BB8481F73D4B50088F665 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				198BB8471F73D4B50088F665 /* Riego Automatico.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		198BB8491F73D4B50088F665 /* Riego Automatico */ = {
+			isa = PBXGroup;
+			children = (
+				198BB84A1F73D4B50088F665 /* AppDelegate.swift */,
+				198BB84C1F73D4B50088F665 /* ViewController.swift */,
+				19267AC81F82972A00ED5DB9 /* TrajectoryModel.swift */,
+				19267AC61F828CDF00ED5DB9 /* TankModel.swift */,
+				198BB84E1F73D4B50088F665 /* Main.storyboard */,
+				198BB85C1F73D5830088F665 /* ParametricGrView.swift */,
+				198BB8511F73D4B50088F665 /* Assets.xcassets */,
+				198BB8531F73D4B50088F665 /* LaunchScreen.storyboard */,
+				198BB8561F73D4B50088F665 /* Info.plist */,
+			);
+			path = "Riego Automatico";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		198BB8461F73D4B50088F665 /* Riego Automatico */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 198BB8591F73D4B50088F665 /* Build configuration list for PBXNativeTarget "Riego Automatico" */;
+			buildPhases = (
+				198BB8431F73D4B50088F665 /* Sources */,
+				198BB8441F73D4B50088F665 /* Frameworks */,
+				198BB8451F73D4B50088F665 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Riego Automatico";
+			productName = "Riego Automatico";
+			productReference = 198BB8471F73D4B50088F665 /* Riego Automatico.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		198BB83F1F73D4B50088F665 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = UPM;
+				TargetAttributes = {
+					198BB8461F73D4B50088F665 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Q73HH3789Y;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 198BB8421F73D4B50088F665 /* Build configuration list for PBXProject "Riego Automatico" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 198BB83E1F73D4B50088F665;
+			productRefGroup = 198BB8481F73D4B50088F665 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				198BB8461F73D4B50088F665 /* Riego Automatico */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		198BB8451F73D4B50088F665 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198BB8551F73D4B50088F665 /* LaunchScreen.storyboard in Resources */,
+				198BB8521F73D4B50088F665 /* Assets.xcassets in Resources */,
+				198BB8501F73D4B50088F665 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		198BB8431F73D4B50088F665 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19267AC91F82972A00ED5DB9 /* TrajectoryModel.swift in Sources */,
+				198BB85D1F73D5830088F665 /* ParametricGrView.swift in Sources */,
+				19267AC71F828CDF00ED5DB9 /* TankModel.swift in Sources */,
+				198BB84D1F73D4B50088F665 /* ViewController.swift in Sources */,
+				198BB84B1F73D4B50088F665 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		198BB84E1F73D4B50088F665 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				198BB84F1F73D4B50088F665 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		198BB8531F73D4B50088F665 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				198BB8541F73D4B50088F665 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		198BB8571F73D4B50088F665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		198BB8581F73D4B50088F665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		198BB85A1F73D4B50088F665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q73HH3789Y;
+				INFOPLIST_FILE = "Riego Automatico/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = riegoautomatico;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		198BB85B1F73D4B50088F665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q73HH3789Y;
+				INFOPLIST_FILE = "Riego Automatico/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = riegoautomatico;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		198BB8421F73D4B50088F665 /* Build configuration list for PBXProject "Riego Automatico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				198BB8571F73D4B50088F665 /* Debug */,
+				198BB8581F73D4B50088F665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		198BB8591F73D4B50088F665 /* Build configuration list for PBXNativeTarget "Riego Automatico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				198BB85A1F73D4B50088F665 /* Debug */,
+				198BB85B1F73D4B50088F665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 198BB83F1F73D4B50088F665 /* Project object */;
+}

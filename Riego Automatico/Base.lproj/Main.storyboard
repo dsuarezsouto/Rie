@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Riego_Automatico" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="cih-C4-LVy">
+                                <rect key="frame" x="10" y="30" width="355" height="627"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="dxO-oP-EMz">
+                                        <rect key="frame" x="0.0" y="0.0" width="355" height="310.5"/>
+                                        <subviews>
+                                            <view contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="qVE-FZ-v0y" customClass="ParametricGrView" customModule="Riego_Automatico" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="355" height="99.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tiempo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f76-Vk-aj6">
+                                                        <rect key="frame" x="304.5" y="77" width="42.5" height="14.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vel Salida" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zHC-9C-yqN">
+                                                        <rect key="frame" x="8" y="8" width="51.5" height="13.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.68735116720199585" green="1" blue="0.1574646532535553" alpha="0.39782213184931509" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <gestureRecognizers/>
+                                                <constraints>
+                                                    <constraint firstItem="zHC-9C-yqN" firstAttribute="top" secondItem="qVE-FZ-v0y" secondAttribute="top" constant="8" id="Di8-Ck-NWy"/>
+                                                    <constraint firstItem="zHC-9C-yqN" firstAttribute="leading" secondItem="qVE-FZ-v0y" secondAttribute="leading" constant="8" id="Jkn-iq-mZY"/>
+                                                    <constraint firstAttribute="bottom" secondItem="f76-Vk-aj6" secondAttribute="bottom" constant="8" id="ml3-fD-O3w"/>
+                                                    <constraint firstAttribute="trailing" secondItem="f76-Vk-aj6" secondAttribute="trailing" constant="8" id="ucL-SK-e9i"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                                        <real key="value" value="2"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="textX" value="c "/>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="textY" value="mgk"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="scaleX">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="scaleY">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="5jn-O5-LTY" customClass="ParametricGrView" customModule="Riego_Automatico" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="105.5" width="355" height="99.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tiempo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tKt-rL-G0i">
+                                                        <rect key="frame" x="304.5" y="77" width="42.5" height="14.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nivel de agua" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2fe-eY-qIv">
+                                                        <rect key="frame" x="8" y="8" width="71.5" height="13.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="1" green="1" blue="0.67371961805555558" alpha="1" colorSpace="calibratedRGB"/>
+                                                <gestureRecognizers/>
+                                                <constraints>
+                                                    <constraint firstItem="2fe-eY-qIv" firstAttribute="top" secondItem="5jn-O5-LTY" secondAttribute="top" constant="8" id="813-u0-AK1"/>
+                                                    <constraint firstAttribute="bottom" secondItem="tKt-rL-G0i" secondAttribute="bottom" constant="8" id="ESC-95-aUv"/>
+                                                    <constraint firstAttribute="trailing" secondItem="tKt-rL-G0i" secondAttribute="trailing" constant="8" id="Ogk-FY-zrf"/>
+                                                    <constraint firstItem="2fe-eY-qIv" firstAttribute="leading" secondItem="5jn-O5-LTY" secondAttribute="leading" constant="8" id="uE5-Hx-YtJ"/>
+                                                </constraints>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="RNb-tp-Sdh" appends="YES" id="kQq-hq-kiF"/>
+                                                    <outletCollection property="gestureRecognizers" destination="yKn-HO-FpW" appends="YES" id="Shz-bt-C9T"/>
+                                                </connections>
+                                            </view>
+                                            <view contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="0be-gf-hL1" customClass="ParametricGrView" customModule="Riego_Automatico" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="211" width="355" height="99.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vel Descenso" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y4T-VL-ln1">
+                                                        <rect key="frame" x="8" y="8" width="77" height="14.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nivel del agua" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E1W-CD-k1y">
+                                                        <rect key="frame" x="273" y="78" width="74" height="13.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.72801266335555559" green="0.9620876735777778" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstItem="y4T-VL-ln1" firstAttribute="leading" secondItem="0be-gf-hL1" secondAttribute="leading" constant="8" id="0wA-94-q1a"/>
+                                                    <constraint firstItem="y4T-VL-ln1" firstAttribute="top" secondItem="0be-gf-hL1" secondAttribute="top" constant="8" id="5Wn-Xu-a0w"/>
+                                                    <constraint firstAttribute="bottom" secondItem="E1W-CD-k1y" secondAttribute="bottom" constant="8" id="hoD-Tz-znW"/>
+                                                    <constraint firstAttribute="trailing" secondItem="E1W-CD-k1y" secondAttribute="trailing" constant="8" id="vf5-lm-xbz"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="UFa-hR-e6u">
+                                        <rect key="frame" x="0.0" y="316.5" width="355" height="310.5"/>
+                                        <subviews>
+                                            <view contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="uZI-ET-m6u" customClass="ParametricGrView" customModule="Riego_Automatico" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="355" height="153"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="x" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="phU-vS-Iq7">
+                                                        <rect key="frame" x="341" y="67" width="6" height="39"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trayectoria" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P5m-QH-BlC">
+                                                        <rect key="frame" x="8" y="8" width="59" height="13.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="y" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dyn-9e-W1b">
+                                                        <rect key="frame" x="142" y="8" width="6.5" height="13.5"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="1" green="0.75043402777777779" blue="0.85403103298611116" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="phU-vS-Iq7" secondAttribute="bottom" constant="47" id="3uY-aT-Nkp"/>
+                                                    <constraint firstItem="phU-vS-Iq7" firstAttribute="top" secondItem="uZI-ET-m6u" secondAttribute="top" constant="67" id="ONR-ah-hnH"/>
+                                                    <constraint firstItem="P5m-QH-BlC" firstAttribute="top" secondItem="uZI-ET-m6u" secondAttribute="top" constant="8" id="nFQ-j8-9fH"/>
+                                                    <constraint firstItem="P5m-QH-BlC" firstAttribute="leading" secondItem="uZI-ET-m6u" secondAttribute="leading" constant="8" id="p42-bg-Bfq"/>
+                                                    <constraint firstAttribute="trailing" secondItem="phU-vS-Iq7" secondAttribute="trailing" constant="8" id="qbf-4o-tIt"/>
+                                                </constraints>
+                                            </view>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="ReB-Vx-cdT">
+                                                <rect key="frame" x="0.0" y="158" width="355" height="152.5"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="5UC-tg-8sO">
+                                                        <rect key="frame" x="0.0" y="0.0" width="355" height="17.5"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Radio de la tuberia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yfn-fk-XIu">
+                                                                <rect key="frame" x="0.0" y="0.0" width="177.5" height="17.5"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Radio del tanque" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7eB-EK-I6h">
+                                                                <rect key="frame" x="177.5" y="0.0" width="177.5" height="17.5"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="g7h-6g-wr6">
+                                                        <rect key="frame" x="0.0" y="17.5" width="355" height="45"/>
+                                                        <subviews>
+                                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="VLs-7h-a9m">
+                                                                <rect key="frame" x="-2" y="0.0" width="178" height="46"/>
+                                                                <connections>
+                                                                    <action selector="sliderRadioTanque:" destination="BYZ-38-t0r" eventType="valueChanged" id="gtl-uv-f1d"/>
+                                                                </connections>
+                                                            </slider>
+                                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="wPn-YO-49Q">
+                                                                <rect key="frame" x="179" y="0.0" width="178" height="46"/>
+                                                                <connections>
+                                                                    <action selector="sliderRadioTuberia:" destination="BYZ-38-t0r" eventType="valueChanged" id="ejS-DW-0bR"/>
+                                                                </connections>
+                                                            </slider>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="f1i-cZ-3Yc">
+                                                        <rect key="frame" x="0.0" y="62.5" width="355" height="90"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tiempo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N55-M5-x7n">
+                                                                <rect key="frame" x="0.0" y="0.0" width="355" height="45"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="3" minValue="0.0" maxValue="20" translatesAutoresizingMaskIntoConstraints="NO" id="ibB-aZ-Xx2">
+                                                                <rect key="frame" x="-2" y="45" width="359" height="46"/>
+                                                                <connections>
+                                                                    <action selector="sliderTime:" destination="BYZ-38-t0r" eventType="valueChanged" id="RDd-U9-cgD"/>
+                                                                </connections>
+                                                            </slider>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <variation key="heightClass=compact" axis="horizontal"/>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cih-C4-LVy" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="8KQ-uj-IYj"/>
+                            <constraint firstAttribute="trailing" secondItem="cih-C4-LVy" secondAttribute="trailing" constant="10" id="Ccb-V5-uqI"/>
+                            <constraint firstItem="cih-C4-LVy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="tlu-ei-hfP"/>
+                            <constraint firstAttribute="bottom" secondItem="cih-C4-LVy" secondAttribute="bottom" constant="10" id="y6p-o8-bKM"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="graficaNivelAguaTiempo" destination="5jn-O5-LTY" id="pTL-vS-UOc"/>
+                        <outlet property="graficaTrayectoria" destination="uZI-ET-m6u" id="Otd-gm-QBa"/>
+                        <outlet property="graficaVelDescensoAgua" destination="0be-gf-hL1" id="0DS-2d-dNy"/>
+                        <outlet property="graficaVelSalidaTiempo" destination="qVE-FZ-v0y" id="gfp-W8-xEz"/>
+                        <outlet property="labelNivelAgua" destination="2fe-eY-qIv" id="Txd-da-NmD"/>
+                        <outlet property="labelRadioTanque" destination="7eB-EK-I6h" id="hoo-0s-CA3"/>
+                        <outlet property="labelRadioTuberia" destination="Yfn-fk-XIu" id="qjL-GV-A0r"/>
+                        <outlet property="labelTiempo1" destination="f76-Vk-aj6" id="D4u-Zi-O3O"/>
+                        <outlet property="labelTiempo2" destination="tKt-rL-G0i" id="7g9-5p-wbJ"/>
+                        <outlet property="labelVelDescenso" destination="y4T-VL-ln1" id="MPD-7I-3oA"/>
+                        <outlet property="labelVelSalida" destination="zHC-9C-yqN" id="Hh6-P7-poi"/>
+                        <outlet property="sliderRadioTanque" destination="VLs-7h-a9m" id="luj-Zw-7Hc"/>
+                        <outlet property="sliderRadioTuberia" destination="wPn-YO-49Q" id="gsn-EQ-XCc"/>
+                        <outlet property="sliderTiempo" destination="ibB-aZ-Xx2" id="dLc-P5-ecT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="up" id="RNb-tp-Sdh">
+                    <connections>
+                        <action selector="recognizerSwipeUp:" destination="BYZ-38-t0r" id="a9j-wx-yTr"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="down" id="yKn-HO-FpW">
+                    <connections>
+                        <action selector="recognizerSwipeDown:" destination="BYZ-38-t0r" id="10e-KH-tkO"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="30" y="35.91549295774648"/>
+        </scene>
+    </scenes>
+</document>
